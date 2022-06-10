@@ -5,39 +5,30 @@ header {
   font-family: 'Montserrat', sans-serif;
 }
 
-html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
-  overflow-y:hidden;
 }
 
-.footer{
-    width: 100%;
-    position: absolute;
-    bottom: -1rem;
+footer{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
   }
 
   a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  container{
-    color: black;
-  }
-  
-  .footer{
-    width: 100%;
-    position: absolute;
-    bottom: -1rem;
-  }
-  
-  .all{
-    height:100vh;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
+  color: inherit;
+  text-decoration: none;
+}
+
+container{
+  color: black;
+}
+
+.all{
+  height:100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
