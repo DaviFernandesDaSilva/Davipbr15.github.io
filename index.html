@@ -23,16 +23,26 @@
   <script type="text/javascript"></script>
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+    /* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(31 41 55) white;
+}
 
-    header {
-      font-family: 'Montserrat', sans-serif;
-    }
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
 
-    body {
-      font-family: 'Josefin Sans', sans-serif;
-    }
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(31 41 55);
+  border-radius: 20px;
+  border: 3px solid white;
+}
   </style>
 </head>
 
