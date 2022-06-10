@@ -1,0 +1,19 @@
+{
+  "name": "davipbr15.github.io-1",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/Davipbr15/Davipbr15.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davipbr15/Davipbr15.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Davipbr15/Davipbr15.github.io/issues"
+  },
+  "homepage": "https://github.com/Davipbr15/Davipbr15.github.io#readme"
+}
